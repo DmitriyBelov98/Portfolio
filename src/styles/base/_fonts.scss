@@ -1,0 +1,5 @@
+@import '../helpers/mixins';
+
+@include font('Montserrat', 'regular', 400, '../../fonts/Montserrat-Regular.woff2');
+@include font('Montserrat', 'medium', 500, '../../fonts/Montserrat-Medium.woff2');
+@include font('Montserrat', 'bold', 700, '../../fonts/Montserrat-Bold.woff2');
