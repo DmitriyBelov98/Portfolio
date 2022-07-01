@@ -6,11 +6,11 @@
         <span class="work__item active-work" data-filter="all">All</span>
         <span class="work__item" data-filter=".frontend">Frontend</span>
         <span class="work__item" data-filter=".backend">Backend</span>
-        <span class="work__item" data-filter=".something">Something</span>
+        <!-- <span class="work__item" data-filter=".something">Something</span> -->
     </div>
     <div class="work__container container grid">
         <div class="work__card mix frontend">
-            <picture>
+            <picture class="work__img">
                 <source  srcset="/img/beats.webp" type="image/webp">
                 
                 <img src="../../img/beats.jpg" alt="beats" class="work__img">
@@ -21,7 +21,7 @@
             </a>
         </div>
         <div class="work__card mix frontend">
-            <picture>
+            <picture class="work__img">
                 <source  srcset="/img/tic-tac-toe.webp" type="image/webp">
                 <img src="../../img/tic-tac-toe.jpg" alt="tic-tac-toe picture" class="work__img">
             </picture>
@@ -30,8 +30,18 @@
                 Demo <i class='bx bx-right-arrow-alt work__icon'></i>
             </a>
         </div>
+        <div class="work__card mix frontend">
+            <picture class="work__img">
+                <source  srcset="/img/food.webp" type="image/webp">
+                <img src="../../img/food.jpg" alt="test" class="work__img">
+            </picture>
+            <h3 class="work__title">Food landing</h3>
+            <a href="https://food-landing.vercel.app/" target="_blank" class="work__button">
+                Demo <i class='bx bx-right-arrow-alt work__icon'></i>
+            </a>
+        </div>
         <div class="work__card mix backend">
-            <picture>
+            <picture class="work__img">
                 <source  srcset="/img/work3.webp" type="image/webp">
                 
                 <img src="../../img/work3.jpg" alt="content page picture" class="work__img">
@@ -41,8 +51,8 @@
                 Demo <i class='bx bx-right-arrow-alt work__icon'></i>
             </a>
         </div>
-        <div class="work__card mix something">
-            <picture>
+        <div class="work__card mix backend">
+            <picture class="work__img">
                 <source  srcset="/img/work4.webp" type="image/webp">
                 
                 <img src="../../img/work4.jpg" alt="test" class="work__img">
@@ -52,5 +62,6 @@
                 Demo <i class='bx bx-right-arrow-alt work__icon'></i>
             </a>
         </div>
+        
     </div>
 </section>
